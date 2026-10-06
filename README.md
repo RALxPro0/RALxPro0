@@ -15,7 +15,7 @@
 
 ### 👨‍💻 Tentang Saya
 
-- 🎓 Mahasiswa Teknik Informatika, FILKOM Universitas Brawijaya
+- 🎓 Mahasiswa Teknologi Informasi Angkatan 25, FILKOM Universitas Brawijaya
 - 🔭 Sedang belajar: PHP OOP, SQL, struktur data, dan jaringan komputer
 - 🌱 Sedang membangun portofolio proyek kuliah dan proyek pribadi
 - 💬 Tanya saya tentang: web development, database, algoritma
