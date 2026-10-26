@@ -1,0 +1,49 @@
+name: Generate Contribution Graphics
+
+on:
+  schedule:
+    - cron: "0 */12 * * *" # tiap 12 jam
+  workflow_dispatch: # bisa dijalankan manual
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      # 🐍 Snake animation (versi terang & gelap)
+      - name: Generate snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+
+      # 🧊 3D contribution graph
+      - name: Generate 3D contribution graph
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Collect 3D graphics
+        run: |
+          mkdir -p dist
+          cp profile-3d-contrib/*.svg dist/
+
+      # Simpan hasil ke branch "output" supaya branch utama tetap bersih
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
