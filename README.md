@@ -19,7 +19,7 @@
 - 🔭 Sedang belajar: PHP OOP, SQL, struktur data, dan jaringan komputer
 - 🌱 Sedang membangun portofolio proyek kuliah dan proyek pribadi
 - 💬 Tanya saya tentang: web development, database, algoritma
-- 📫 Kontak: [email kamu] · [LinkedIn kamu]
+- 📫 Kontak: EMAIL : rezaabdullatif50@gmail.com · LINKEDIN : https://www.linkedin.com/in/reza-abdul-latif-381745377/
 
 ---
 
