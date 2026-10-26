@@ -73,10 +73,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake.svg" />
   <img alt="snake contribution graph" src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake-dark.svg" width="100%" />
 </picture>
-
-### 📈 Grafik Aktivitas
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RALxPro0&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true&custom_title=Aktivitas%20Kontribusi%20Reza" alt="activity graph" width="100%" />
-
 </div>
 
 ---
