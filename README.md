@@ -67,17 +67,6 @@
 
 <div align="center">
 
-### 🧊 3D Contribution Graph
-<img src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/profile-night-rainbow.svg" alt="3D contribution graph" width="100%" />
-
-### 🐍 Snake Memakan Kontribusi
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake.svg" />
-  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake-dark.svg" width="100%" />
-</picture>
-
-### 📈 Grafik Aktivitas
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=RALxPro0&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true&custom_title=Aktivitas%20Kontribusi%20Reza" alt="activity graph" width="100%" />
 
 </div>
