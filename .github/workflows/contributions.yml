@@ -1,9 +1,9 @@
-name: Generate Snake
+name: Generate Profile Graphics
 
 on:
   schedule:
     - cron: "0 */12 * * *" # tiap 12 jam
-  workflow_dispatch: # bisa dijalankan manual
+  workflow_dispatch: # bisa dijalankan manual dari tab Actions
   push:
     branches:
       - main
@@ -11,11 +11,18 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - uses: actions/checkout@v4
+
+      # 🐍 Snake animation (versi terang & gelap)
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
         with:
@@ -24,6 +31,15 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
+      # 📊 Kartu stats, bahasa, dan aktivitas (dibuat sendiri, tanpa layanan luar)
+      - name: Generate stats cards
+        continue-on-error: true # kalau gagal, snake tetap dipublikasikan
+        run: python3 .github/scripts/generate_cards.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_DIR: dist
+
+      # Simpan semua hasil ke branch "output" supaya branch utama tetap bersih
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
