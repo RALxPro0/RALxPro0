@@ -1,14 +1,30 @@
 <!-- Repo ini harus bernama sama dengan username GitHub: RALxPro0/RALxPro0 -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Reza%20Abdul%20Latif&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Informatics%20Student%20%7C%20Universitas%20Brawijaya&descAlignY=58&descSize=16" width="100%" alt="header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=Hey%20Everyone!&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Reza%20Abdul%20Latif%20%7C%20Informatics%20Student%20%40%20Universitas%20Brawijaya&descAlignY=60&descSize=16" width="100%" alt="header" />
 
 <div align="center">
 
+<h2>Let's Connect and have a Chat! 💬</h2>
+
+<a href="https://www.linkedin.com/in/reza-abdul-latif-381745377/"><img src="https://skillicons.dev/icons?i=linkedin" width="48" alt="LinkedIn" /></a>
+&nbsp;
+<a href="mailto:rezaabdullatif50@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="48" alt="Email" /></a>
+&nbsp;
+<a href="https://github.com/RALxPro0"><img src="https://skillicons.dev/icons?i=github" width="48" alt="GitHub" /></a>
+<!--
+&nbsp;
+<a href="https://instagram.com/USERNAME_KAMU"><img src="https://skillicons.dev/icons?i=instagram" width="48" alt="Instagram" /></a>
+&nbsp;
+<a href="https://LINK_PORTOFOLIO_KAMU"><img src="https://skillicons.dev/icons?i=vercel" width="48" alt="Portofolio" /></a>
+-->
+
+<br/><br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
+<br><br>
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2C9CDB&center=true&vCenter=true&width=600&lines=Halo%2C+saya+Latif+%F0%9F%91%8B;Mahasiswa+Teknologi+Informasi+%40+UB;Web+Developer+%7C+UI%2FUX+Enthusiast;Menuju+Data+Analyst+%2F+Data+Scientist)](https://git.io/typing-svg)
 
-<a href="mailto:rezaabdullatif50@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://www.linkedin.com/in/reza-abdul-latif-381745377/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="https://github.com/RALxPro0"><img src="https://img.shields.io/github/followers/RALxPro0?style=for-the-badge&logo=github&color=2c5364" alt="Followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=RALxPro0&label=Profile+views&color=2c5364&style=for-the-badge" alt="Views" />
 
 </div>
@@ -54,8 +70,8 @@
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=RALxPro0&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="stats" />
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RALxPro0&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="top langs" />
+<img height="190" src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/stats.svg" alt="stats" />
+<img height="190" src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/langs.svg" alt="top langs" />
 
 <img src="https://streak-stats.demolab.com?user=RALxPro0&theme=tokyonight&hide_border=true&background=0d1117" alt="streak" />
 
@@ -73,6 +89,10 @@
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake.svg" />
   <img alt="snake contribution graph" src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake-dark.svg" width="100%" />
 </picture>
+
+### 📈 Grafik Aktivitas
+<img src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/activity.svg" alt="activity graph" width="100%" />
+
 </div>
 
 ---
@@ -84,8 +104,6 @@
 | [portofolio-web](https://github.com/RALxPro0/portofolio-web) | Website portofolio developer bertema monokrom dengan elemen 3D interaktif | React, Vite, Three.js |
 | [praktikum-laravel](https://github.com/RALxPro0/praktikum-laravel) | Latihan routing, controller, dan Blade pada Laravel | PHP, Laravel |
 | [praktikum-struktur-data](https://github.com/RALxPro0/praktikum-struktur-data) | Implementasi ADT Stack, Queue, dan Binary Tree | Java |
-
-> ✏️ Ganti nama repo dan link di atas sesuai repository yang benar-benar ada di akunmu.
 
 ---
 
