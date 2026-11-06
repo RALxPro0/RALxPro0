@@ -23,7 +23,7 @@
 <img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="500">
 <br><br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2C9CDB&center=true&vCenter=true&width=600&lines=Halo%2C+saya+Latif+%F0%9F%91%8B;Mahasiswa+Teknologi+Informasi+%40+UB;Web+Developer+%7C+UI%2FUX+Enthusiast;Menuju+Data+Analyst+%2F+Data+Scientist)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1200&color=2C9CDB&center=true&vCenter=true&width=600&lines=Halo%2C+saya+Latif+%F0%9F%91%8B;Mahasiswa+Teknologi+Informasi+%40+UB;Web+Developer+%7C+UI%2FUX+Enthusiast;)](https://git.io/typing-svg)
 
 <img src="https://komarev.com/ghpvc/?username=RALxPro0&label=Profile+views&color=2c5364&style=for-the-badge" alt="Views" />
 
@@ -34,12 +34,11 @@
 ## 👨‍💻 Tentang Saya
 
 - 🎓 Mahasiswa **Teknologi Informasi** Angkatan 25, FILKOM Universitas Brawijaya
-- 🎯 Target karier: **Data Analyst / Data Scientist**
 - 🎨 Tertarik pada **teknologi dan desain** — dari web development sampai UI/UX
 - 🔭 Sedang belajar: PHP OOP & Laravel, SQL, struktur data (Java), jaringan komputer
 - 🌱 Sedang membangun portofolio proyek kuliah dan proyek pribadi
-- 💬 Tanya saya tentang: web development, database, algoritma, UI/UX
-
+<!-- 💬 Tanya saya tentang: web development, database, algoritma, UI/UX -->
+<!-- 🎯 Target karier: **Data Analyst / Data Scientist** -->
 ---
 
 ## 🛠️ Tech Stack
@@ -50,17 +49,17 @@
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind&theme=dark" alt="frontend" />
 
 **⚙️ Backend & Bahasa**<br/>
-<img src="https://skillicons.dev/icons?i=php,laravel,java,python&theme=dark" alt="backend" />
+<img src="https://skillicons.dev/icons?i=php,laravel&theme=dark" alt="backend" />
 
 **🗄️ Database**<br/>
-<img src="https://skillicons.dev/icons?i=mysql,postgres,sqlite&theme=dark" alt="database" />
+<img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="database" />
 
 **🎨 Desain**<br/>
 <img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="design" />
 <img src="https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white" alt="Canva" />
 
 **🔧 Tools & Hosting**<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,npm,vercel,netlify&theme=dark" alt="tools" />
+<img src="https://skillicons.dev/icons?i=git,github,vscode,npm,vercel,netlify&theme=dark" alt="tools" />
 
 </div>
 
