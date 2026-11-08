@@ -100,10 +100,10 @@
 
 | Proyek | Deskripsi | Teknologi |
 | :-- | :-- | :-- |
-| [portofolio-web](https://github.com/RALxPro0/portofolio-web) | Website portofolio developer bertema monokrom dengan elemen 3D interaktif | React, Vite, Three.js |
+<!-- | [portofolio-web](https://github.com/RALxPro0/portofolio-web) | Website portofolio developer bertema monokrom dengan elemen 3D interaktif | React, Vite, Three.js |
 | [praktikum-laravel](https://github.com/RALxPro0/praktikum-laravel) | Latihan routing, controller, dan Blade pada Laravel | PHP, Laravel |
 | [praktikum-struktur-data](https://github.com/RALxPro0/praktikum-struktur-data) | Implementasi ADT Stack, Queue, dan Binary Tree | Java |
-
+-->
 ---
 
 ## 🤝 Mari Terhubung
