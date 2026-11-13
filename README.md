@@ -41,33 +41,18 @@
 <!-- 🎯 Target karier: **Data Analyst / Data Scientist** -->
 ---
 
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**💻 Frontend**<br/>
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vite,tailwind&theme=dark" alt="frontend" />
-
-**⚙️ Backend & Bahasa**<br/>
-<img src="https://skillicons.dev/icons?i=php,laravel&theme=dark" alt="backend" />
-
-**🗄️ Database**<br/>
-<img src="https://skillicons.dev/icons?i=mysql&theme=dark" alt="database" />
-
-**🎨 Desain**<br/>
-<img src="https://skillicons.dev/icons?i=figma&theme=dark" alt="design" />
-<img src="https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white" alt="Canva" />
-
-**🔧 Tools & Hosting**<br/>
 <img src="https://skillicons.dev/icons?i=git,github,vscode,npm,vercel,netlify&theme=dark" alt="tools" />
 
+</div>
+
+---
 
 ## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="190" src="https://github-readme-stats.vercel.app/api?username=RALxPro0&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&count_private=true&include_all_commits=true" alt="stats" />
-<img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RALxPro0&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="top langs" />
+<img height="190" src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/stats.svg" alt="stats" />
+<img height="190" src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/langs.svg" alt="top langs" />
 
 <img src="https://streak-stats.demolab.com?user=RALxPro0&theme=tokyonight&hide_border=true&background=0d1117" alt="streak" />
 
@@ -79,11 +64,15 @@
 
 <div align="center">
 
-### 📈 Grafik Aktivitas
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=RALxPro0&theme=tokyo-night&hide_border=true&bg_color=0d1117&area=true" alt="activity graph" width="100%" />
+### 🐍 Snake Memakan Kontribusi
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake.svg" />
+  <img alt="snake contribution graph" src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/github-snake-dark.svg" width="100%" />
+</picture>
 
-### 🏆 Trofi
-<img src="https://github-profile-trophy.vercel.app/?username=RALxPro0&theme=tokyonight&no-frame=true&row=7&margin-w=10" alt="trophy" />
+### 📈 Grafik Aktivitas
+<img src="https://raw.githubusercontent.com/RALxPro0/RALxPro0/output/activity.svg" alt="activity graph" width="100%" />
 
 </div>
 
