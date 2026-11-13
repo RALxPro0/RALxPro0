@@ -2,7 +2,7 @@ name: Generate Profile Graphics
 
 on:
   schedule:
-    - cron: "0 */12 * * *" # tiap 12 jam
+    - cron: "0 * * * *" # tiap 12 jam
   workflow_dispatch: # bisa dijalankan manual dari tab Actions
   push:
     branches:
