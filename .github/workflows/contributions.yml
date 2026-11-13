@@ -22,6 +22,14 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # Ambil hasil sebelumnya sebagai cadangan (branch belum ada saat run pertama)
+      - name: Ambil hasil lama
+        uses: actions/checkout@v4
+        continue-on-error: true
+        with:
+          ref: output
+          path: prev
+
       # 🐍 Snake animation (versi terang & gelap)
       - name: Generate snake
         uses: Platane/snk/svg-only@v3
@@ -31,13 +39,22 @@ jobs:
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
 
-      # 📊 Kartu stats, bahasa, dan aktivitas (dibuat sendiri, tanpa layanan luar)
+      # 📊 Kartu stats, bahasa, dan aktivitas
+      # Pakai secret GH_PAT kalau ada (kontribusi privat ikut terhitung),
+      # kalau tidak ada otomatis memakai GITHUB_TOKEN bawaan.
       - name: Generate stats cards
         continue-on-error: true # kalau gagal, snake tetap dipublikasikan
         run: python3 .github/scripts/generate_cards.py
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
           OUT_DIR: dist
+
+      # Kalau ada file yang gagal dibuat, pakai versi lama supaya gambar README tidak rusak
+      - name: Pakai file lama jika generate gagal
+        if: always()
+        run: |
+          mkdir -p dist
+          cp -n prev/*.svg dist/ 2>/dev/null || true
 
       # Simpan semua hasil ke branch "output" supaya branch utama tetap bersih
       - name: Push to output branch
